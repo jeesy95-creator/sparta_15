@@ -6,3 +6,6 @@ git pull origin main
 git add .
 git commit -m "의미 있는 커밋 메시지"
 git push origin main
+
+import pandas as pd
+df = pd.read_csv("../data/dailyActivity_merged.csv")
