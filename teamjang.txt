@@ -1,1 +1,8 @@
-다들 화이팅입니다~!
+터미널
+정보 출력
+git pull origin main
+
+입력
+git add .
+git commit -m "의미 있는 커밋 메시지"
+git push origin main
