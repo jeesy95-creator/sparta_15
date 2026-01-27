@@ -69,7 +69,7 @@ act_clean['Activity_Grade'] = pd.qcut(act_clean['Intensity_Score'].rank(method='
 5가지 시각화 기법을 활용하여 사용자 패턴을 다각도로 분석했습니다.
 
 ① 현황 파악: Histogram (분포)
-![alt text](images/pj1.png)
+![alt text](../assets/ohc_assets/ohc_pj1.png)
 차트 내용: 전체 유저의 Intensity_Score 분포 (등급별 색상 구분).
 
 분석 결과:
@@ -79,7 +79,7 @@ High 등급은 점수 분포가 넓게 퍼져 있음 (개인별 수행 능력 �
 인사이트: 초급자에게는 단순한 미션을, 상급자에게는 경쟁 요소를 도입해야 함.
 
 ② 가성비 분석: Box Plot (효율성 비교)
-![가성비 분석](images/pj2.png)
+![alt text](../assets/ohc_assets/ohc_pj2.png)
 차트 내용: 등급별 Efficiency 지표의 분포 비교.
 
 분석 결과: High 등급의 Median(중앙값)이 Low 등급보다 현저히 높음.
@@ -87,7 +87,7 @@ High 등급은 점수 분포가 넓게 퍼져 있음 (개인별 수행 능력 �
 인사이트: 상급자는 단순히 운동을 오래 하는 것이 아니라, '같은 1분도 더 밀도 있게(고효율)' 쓴다는 것이 증명됨.
 
 ③ 격차 분석: Bar Chart (성장 요인)
-![격차 분석](images/pj3.png)
+![alt text](../assets/ohc_assets/ohc_pj3.png)
 차트 내용: 등급별 평균 VeryActiveMinutes(고강도 운동 시간) 비교.
 
 분석 결과: High 등급과 Low 등급의 가장 결정적인 차이는 **고강도 운동 시간(약 10배 차이)**에서 발생함.
@@ -95,7 +95,7 @@ High 등급은 점수 분포가 넓게 퍼져 있음 (개인별 수행 능력 �
 인사이트: 등급 상승을 위해서는 단순 걷기가 아닌 **'숨이 차는 운동'**을 유도해야 함.
 
 ④ 저효율 식별: Scatter Plot (상관관계)
-![저효율 식별](images/pj4.png)
+![alt text](../assets/ohc_assets/ohc_pj4.png)
 차트 내용: X축(운동 시간) vs Y축(소모 칼로리).
 
 분석 결과:
@@ -104,7 +104,7 @@ High 등급은 점수 분포가 넓게 퍼져 있음 (개인별 수행 능력 �
 인사이트: 이들은 '운동을 했다'는 만족감은 높으나 실제 효과는 낮음. 인터벌 트레이닝 제안이 시급함.
 
 ⑤ 수확 체감 분석: Line Plot (추세)
-![수확 체감 분석](images/pj5.png)
+![alt text](../assets/ohc_assets/ohc_pj5.png)
 차트 내용: 운동 시간대별(30분 단위) 평균 Efficiency 변화 추세선.
 
 분석 결과:
