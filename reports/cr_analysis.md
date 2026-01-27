@@ -93,3 +93,6 @@ for ax in g.axes.flat:
         dates = ax.get_lines()[0].get_xdata()
         buffer = 0.5 # 반나절 여백
         ax.set_xlim(dates.min() - buffer, dates.max() + buffer)
+
+
+![컬럼 목록](<../assets/cr_png/컬럼 목록.PNG>)
