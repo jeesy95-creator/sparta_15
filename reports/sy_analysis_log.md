@@ -366,7 +366,7 @@ calorie_group_derived = actcp_d_clean.groupby('CalorieGroup', observed=True)[der
 
 **참고**: 0-500 kcal(7개), 500-1000 kcal(5개) 그룹은 샘플 수 부족으로 분석에서 제외
 
- ![그룹별 파생변수](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/칼로리그룹별파생변수비교 .png)
+ ![그룹별 파생변수](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/칼로리그룹별파생변수비교.png)
 ---
 
 ## 💡 2. 핵심 인사이트
@@ -381,7 +381,7 @@ calorie_group_derived = actcp_d_clean.groupby('CalorieGroup', observed=True)[der
 | 2000-2500 | 4.5% | 3.4% | 92.1% |
 | 2500+ | 5.0% | 4.1% | 90.9% |
 
-[활동비율](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/활동 비율.png)
+ ![활동비율](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/활동비율.png)
 
 **시사점**:
 - 격렬한 운동 없이도 충분한 칼로리 소모 가능
@@ -406,7 +406,7 @@ calorie_group_derived = actcp_d_clean.groupby('CalorieGroup', observed=True)[der
 - 2000-2500: 34.4 분/km
 - 2500+: 29.7 분/km
 
-[페이스](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/속도와 페이스 .png)
+ ![페이스](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/속도와 페이스.png)
 
 **시사점**:
 - 빠르게 걷는 습관이 칼로리 소모 증가와 연관
@@ -425,7 +425,7 @@ calorie_group_derived = actcp_d_clean.groupby('CalorieGroup', observed=True)[der
 | 2000-2500 | 289.2분 (4.8시간) | +16.3% |
 | 2500+ | 267.2분 (4.5시간) | -7.6% |
 
-[활동시간](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/그룹별 시간 데이터.png)
+ ![활동시간](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/그룹별시간데이터.png)
 
 **특이점**: 2500+ 그룹의 활동 시간이 2000-2500보다 짧음  
 → **속도가 빠르면 시간이 짧아도 높은 칼로리 소모 가능**
@@ -445,7 +445,7 @@ calorie_group_derived = actcp_d_clean.groupby('CalorieGroup', observed=True)[der
 - 2000-2500: 1.099 m (+2.9%)  
 - 2500+: 1.180 m (+7.4%)
 
-[보폭](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/칼로리별 보폭.png)
+ ![보폭](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/칼로리별보폭.png)
 
 **총 차이**: 2500+ 그룹이 1000-1500 그룹보다 **12.6% 더 긴 보폭**
 
@@ -483,7 +483,7 @@ calorie_group_derived = actcp_d_clean.groupby('CalorieGroup', observed=True)[der
 | 평균 걸음수 | 10,461 steps | 4,070 steps | **2.6배** |
 | 평균 칼로리 | 2,240 kcal | 1,779 kcal | 1.3배 |
 
-[걸음 수](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/걸음 수.png)
+ ![걸음 수](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/걸음수.png)
 
 **시사점**:
 - 활동적인 사용자와 비활동적인 사용자의 차이가 큼
@@ -502,7 +502,7 @@ calorie_group_derived = actcp_d_clean.groupby('CalorieGroup', observed=True)[der
 | 2000-2500 | 71.4% | 높음 |
 | 2500+ | 23.1% | 낮음 |
 
-[습관사용자](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/습관 사용자.png)
+ ![습관사용자](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/습관사용자.png)
 
 **핵심 발견**:
 - **1500-2000 kcal 그룹이 가장 꾸준히 활동**
@@ -524,7 +524,7 @@ calorie_group_derived = actcp_d_clean.groupby('CalorieGroup', observed=True)[der
 | **Long-Light** | 203 | **318.1** | **326.3** | 0.96 |
 | Mixed | 273 | 121.1 | 183.9 | 0.60 |
 
-[효율지표](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/효율.png)
+ ![효율지표](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/효율.png)
 
 **프로필 정의**:
 - **Short-Intense**: 고강도 활동 15분 이상
@@ -551,7 +551,7 @@ calorie_group_derived = actcp_d_clean.groupby('CalorieGroup', observed=True)[der
 | Mixed | 21.2% | **36.4%** | 23.4% | 18.7% |
 | Short-Intense | 1.8% | 30.0% | **39.2%** | 29.1% |
 
-[활동프로필 별 칼로리](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/활동 프로필 별 칼로리.png)
+ ![활동프로필 별 칼로리](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/활동프로필별칼로리.png)
 
 **해석**:
 - **Short-Intense**: 2000-2500 kcal 구간 비중이 가장 높음 (39.2%)
