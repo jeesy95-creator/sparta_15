@@ -407,7 +407,7 @@ calorie_group_derived = actcp_d_clean.groupby('CalorieGroup', observed=True)[der
 - 2000-2500: 34.4 분/km
 - 2500+: 29.7 분/km
 
- ![페이스](../assets/sy_png/속도와페이스.png)
+ ![페이스](../assets/sy_assets/속도와페이스.png)
 
 **시사점**:
 - 빠르게 걷는 습관이 칼로리 소모 증가와 연관
