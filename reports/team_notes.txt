@@ -1,11 +1,18 @@
-터미널
-정보 출력
-git pull origin main
+- 해찬
 
-입력
-git add .
-git commit -m "의미 있는 커밋 메시지"
-git push origin main
 
-import pandas as pd
-df = pd.read_csv("../data/dailyActivity_merged.csv")
+- 정원
+SedentaryRatio :  하루동안 앉아있는 시간의 비율
+TotalActiveMinutes 근데 이건 공동으로 많이 쓸 것 같습니다
+Active Day / Over-Sedentary Day / Low Engagement Day
+
+- 소윤 
+'weekday' : 요일
+'is_weekend' : 주말 여부( True, False)
+'TotalActiveMinutes' :  총 활동 시간 
+'CalorieGroup' : 칼로리그룹 (1000-1500, 1500-2000, 2000-2500, 2500+)
+"CaloriesPerKm" : 칼로리 효율 (칼로리/km)
+
+- 채리
+act["ActivityDate"] : 날짜 타입 변환
+["distance_cols"] : 모든 거리 컬럼을 km로 변환
