@@ -384,7 +384,8 @@ calorie_group_derived = actcp_d_clean.groupby('CalorieGroup', observed=True)[der
  ![활동비율](../assets/sy_assets/활동비율.png)
 
 **시사점**:
-- 격렬한 운동 없이도 충분한 칼로리 소모 가능
+- 저강도 운동이 베이스가 되어야 함 
+- 고강도 운동은 운동 수준이 올라가면 늘리는 방향 
 - 일상 활동(걷기, 가벼운 움직임)이 가장 중요
 - "운동을 열심히 해야 한다"는 통념과 다름
 
