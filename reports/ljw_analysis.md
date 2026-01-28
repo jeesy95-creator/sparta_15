@@ -18,6 +18,7 @@
   5) Normal Day : 이 이외의 구간
 
 4. 데이터 분석 결과
+4.1. 
 ```python
 import pandas as pd
 
@@ -31,3 +32,19 @@ daily_counts = (
 daily_counts
 ```
 각 날짜별 DayType의 수를 합계해서 정리한 결과를 EDA로 표현한 결과는 다음과 같다.
+![output1](../assets/ljw_assets/1stoutput.png)
+![output2](../assets/ljw_assets/2ndoutput.png)
+
+분석 결과
+ : Active한 상태에 더 많이 영향을 주는 것 -> high steps.(7천보 이상)
+   Active Day 증감은 주로 High Steps(일상 이동량 증가)에 의해 설명되었으며, High Active Minutes는 상대적으로 안정적인 수준을 유지하였다.
+   이는 활동 감소가 운동 시간의 급격한 축소보다는 일상 속 이동 감소와 더 밀접하게 관련되어 있음을 내포함.
+
+4.2. 
+```python
+# 사용자별 z-score (TotalSteps)
+act["Steps_z"] = (
+    act.groupby("Id")["TotalSteps"]
+       .transform(lambda x: (x - x.mean()) / x.std())
+)
+```
