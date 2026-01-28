@@ -366,7 +366,7 @@ calorie_group_derived = actcp_d_clean.groupby('CalorieGroup', observed=True)[der
 
 **참고**: 0-500 kcal(7개), 500-1000 kcal(5개) 그룹은 샘플 수 부족으로 분석에서 제외
 
- ![그룹별 파생변수](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/칼로리 그룹별 파생 변수 비교 .png)
+ ![그룹별 파생변수](/Users/jisoyun/Desktop/sparta_python/Healthcare/sparta_15/assets/sy_png/칼로리그룹별파생변수비교 .png)
 ---
 
 ## 💡 2. 핵심 인사이트
