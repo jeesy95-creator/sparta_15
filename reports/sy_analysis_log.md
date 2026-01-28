@@ -576,6 +576,7 @@ calorie_group_derived = actcp_d_clean.groupby('CalorieGroup', observed=True)[der
 | 2000-2500 | 2219.7 | 2219.0 | -0.03% |
 | 2500+ | 2825.4 | 2845.3 | +0.7% |
 
+ ![주중주말](../assets/sy_assets/주말주중스탭수.png)
 **주요 지표 비교**:
 - 걸음수: 주중/주말 차이 8~18% (주중이 더 많음)
 - 활동시간: 주중/주말 차이 2~5% (주중이 약간 더 많음)
