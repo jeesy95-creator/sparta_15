@@ -32,6 +32,22 @@ daily_counts = (
 daily_counts
 ```
 각 날짜별 DayType의 수를 합계해서 정리한 결과를 EDA로 표현한 결과는 다음과 같다.
+![output4](../assets/ljw_assets/4thoutput.png)
+
+인사이트 :
+1. 3월까지는 사용자 수가 많지가 않음
+2. 3월 말부터 4월 넘어가면서 사용자 급등하기 시작 
+         --> 기기 착용 안정화, 참여자 풀의 완성
+3. Active 사용자가 많다가 5월부터 서서히 감소
+         --> Sedentary/Rest Day의 증가로 연결됨
+         --> 행동 피로 누적 or 루틴 붕괴 신호
+
+이러한 패턴은 여성 헬스케어 서비스에서 단기 성과보다 지속 가능한 루틴 설계와 회복 중심 개입이 중요함을 뒷받침한다.
+
+
+그럼 이 Active Day의 패턴이 왜 이렇게 변화했을까?
+
+
 ![output1](../assets/ljw_assets/1stoutput.png)
 ![output2](../assets/ljw_assets/2ndoutput.png)
 
