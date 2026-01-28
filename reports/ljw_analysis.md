@@ -18,7 +18,7 @@
   5) Normal Day : 이 이외의 구간
 
 4. 데이터 분석 결과
-4.1. 
+4.1. 날짜별 DayType 집계
 ```python
 import pandas as pd
 
@@ -35,7 +35,7 @@ daily_counts
 ![output1](../assets/ljw_assets/1stoutput.png)
 ![output2](../assets/ljw_assets/2ndoutput.png)
 
-분석 결과
+분석 결과 및 인사이트
  : Active한 상태에 더 많이 영향을 주는 것 -> high steps.(7천보 이상)
    Active Day 증감은 주로 High Steps(일상 이동량 증가)에 의해 설명되었으며, High Active Minutes는 상대적으로 안정적인 수준을 유지하였다.
    이는 활동 감소가 운동 시간의 급격한 축소보다는 일상 속 이동 감소와 더 밀접하게 관련되어 있음을 내포함.
@@ -73,7 +73,12 @@ act["Steps_z"] = (
         : 중앙값은 0보다 아래
           하지만 분산이 비교적 큼
           일부 +z-score도 존재
-          --> 사용자에 따라 체감이 갈리는 경계 상태 --> 사용자 개입 포인트로 적당.
+          --> 사용자에 따라 체감이 갈리는 경계 상태
 
 5) Rest Day -> 중앙값이 낮고 (–1.5 이하), 극단적으로 낮은 outlier 존재 (–4 이하)
         : 명확히 비활동적인 날
+
+
+인사이트 
+        : Over-Sedentary Day는 개인 기준에서 활동 수준의 분산이 크고, 이후 전이가 Active 또는  Rest로 모두 가능한 상태. 즉 행동 방향이 아직 고정되지 않은 경계 단계로 해석 가능.
+        따라서 앱의 개입을 통해 Active 상태로 유도할 수 있는 효과적인 시점으로 보여진다.
