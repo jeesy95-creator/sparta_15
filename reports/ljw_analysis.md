@@ -1,12 +1,12 @@
-1. 개요
+# 1. 개요
 본 분석을 통해 사용자 활동 데이터를 기반으로 일별 활동 상태(DayType)를 정의하고,
 사용자 기준 정규화(z-score) 및 상태 전이 분석을 통해 활동 패턴 변화를 탐색하였다.
 
-2. 비즈니스 목적
+# 2. 비즈니스 목적
 - 일상 행동 변화 파악 + 맞춤형 개입이 핵심 가치
 - 단순히 “얼마나 움직였는가”가 아니라 “사용자 기준에서 활동 상태는 어떻게 달라지고, 어떻게 전이되는가?”
 
-3. 데이터 전처리 및 파생변수 정의
+# 3. 데이터 전처리 및 파생변수 정의
 - TotalActiveMinutes(총 활동 시간) : VeryActiveMinutes + FairlyActiveMinutes + LightlyActiveMinutes
 - Sedentary Ratio(하루동안 앉아있는 시간의 비율) : SedentaryMinutes/1440
 
@@ -17,7 +17,7 @@
   4) Rest Day : TotalSteps == 0
   5) Normal Day : 이 이외의 구간
 
-4. 데이터 분석 결과
+# 4. 데이터 분석 결과
 4.1. 날짜별 DayType 집계
 ```python
 import pandas as pd
