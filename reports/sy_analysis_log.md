@@ -428,8 +428,9 @@ calorie_group_derived = actcp_d_clean.groupby('CalorieGroup', observed=True)[der
 
  ![활동시간](../assets/sy_assets/그룹별시간데이터.png)
 
-**특이점**: 2500+ 그룹의 활동 시간이 2000-2500보다 짧음  
-→ **속도가 빠르면 시간이 짧아도 높은 칼로리 소모 가능**
+**특이점**: 저강도 운동에서 2500+ 그룹의 활동 시간이 2000-2500보다 짧음  
+→ **저강도 운동에서는 시간이 짧아도 높은 칼로리 소모 가능**
+→ **중,고강도 운동은 시간과 칼로리 비례**
 
 **시사점**:
 - 하루 4시간 이상의 활동이 높은 칼로리 소모와 연관
@@ -453,7 +454,7 @@ calorie_group_derived = actcp_d_clean.groupby('CalorieGroup', observed=True)[der
 **시사점**:
 - 보폭이 긴 사람이 더 효율적으로 칼로리 소모
 - 걸을 때 의식적으로 보폭을 늘리면 효과적
-- 키나 다리 길이가 칼로리 소모에 영향
+- 키나 다리 길이가 칼로리 소모에 영향을 줄 수 있음
 
 ---
 
@@ -489,7 +490,7 @@ calorie_group_derived = actcp_d_clean.groupby('CalorieGroup', observed=True)[der
 **시사점**:
 - 활동적인 사용자와 비활동적인 사용자의 차이가 큼
 - 비활동 그룹도 기초대사량으로 약 1,800 kcal 소모
-- 맞춤형 목표와 동기부여 전략 필요
+- **맞춤형 목표와 동기부여 전략** 필요
 
 ---
 
@@ -582,7 +583,7 @@ calorie_group_derived = actcp_d_clean.groupby('CalorieGroup', observed=True)[der
 
 **결론**: 
 - Fitbit 사용자들은 주중/주말 구분 없이 일관된 활동 패턴 유지
-- 일반인과 달리 건강 의식이 높은 그룹의 특성
+- 일반인과 달리 건강 의식이 높은 그룹의 특성일 수 있음
 - 주말에 걸음수는 줄지만, 활동 강도나 기초대사량으로 칼로리 유지
 
 ---
